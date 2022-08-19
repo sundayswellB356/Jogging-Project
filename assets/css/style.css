@@ -54,10 +54,12 @@ letter-spacing:4px;
       width:100%;
       background: url ('../images/hero-image.webp') no-repeat center center;
       
+      
       animation-name: hero-zoom;
       animation-duration: 5s;
       animation-fill-mode: forwards;
       }
+      
       
      
         
@@ -70,17 +72,15 @@ letter-spacing:4px;
       }
       
       /*creates the level of zoom for hero image*/
+      
       @keyframes hero-zoom {
         from{
             transform: scale(1);
-        }
-        to{
+            }
+        to {
             transform: scale(1.1);
-        }
+          }
     }
-
-
-
 
 
 
