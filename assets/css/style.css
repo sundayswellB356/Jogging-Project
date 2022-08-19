@@ -48,24 +48,26 @@ letter-spacing:4px;
      #hero-image {
       height:600px;
       width:100%;
-      background: url('../images/hero-image.webp')no-repeat center center;
+      background: url ('../images/hero-image.webp') no-repeat center center;
+      
+      animation-name: hero-zoom;
+      animation-duration: 5s;
+      animation-fill-mode:forwards;
       }
-      @ keyframes hero-zoom {
-        from {
-          transform:scale(1);
-        to{
-          transform:scale(.1);
-        animation-name:hero-zoom;
-        animation-duration:5s;
-      } animation-fill-mode:forwards;
         
-      }
       
-      
-      #hero-outer{
+        #hero-outer{
         height:600px;
         width:100%;
         overflow:hidden;
       }
       
-      
+      /*creates the level of zoom for hero image*/
+      @keyframes hero-zoom{
+        from {
+          transform :scale (1);
+      }
+        to {
+          transform : scale (1.1);
+        }
+      }
