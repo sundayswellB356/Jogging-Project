@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
  
 *{
   margin:0;
@@ -74,8 +75,7 @@
           animation-duration:5s;
           animation-fill-mode:forwards;
         }
-
-        /* creates the level of zoom for hero image*/
+            /* creates the level of zoom for hero image*/
         @keyframes hero-zoom{
           from{
             transform: scale(1);
@@ -85,7 +85,6 @@
             transform: scale(1.1);
         }
       }
-
       #cover-text{
         font-size:130%;
         font-family: Oswald, sans-serif;
@@ -104,8 +103,11 @@
 
       position: absolute;
       }
-
-      /*club ethos*/
+        
+        
+          
+          
+            /*club ethos*/
 
       #club-ethos{
         height:600px;
@@ -117,17 +119,18 @@
         float:left;
       }
 
+      
       right-about{
         padding-top:30px;
         width:33%;
         float:right;
       }
-
       #center-about{
         width:33%;
         margin:0 auto;
       }
-      hr{
+      
+       hr{
         border-top: 1px solid #3a3a3a;
         width:100%;
         margin: 5px 0;
@@ -154,6 +157,7 @@
         .right-about-heading p{
           text-align:right;
         }
+     
 
          #welcome{
           text-align: center;
