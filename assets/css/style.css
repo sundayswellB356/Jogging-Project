@@ -69,7 +69,7 @@
             height: 600px;
             width: 100%;
             background:url('../images/hero-image.webp')no repeat center center;
-          
+            
           /* animates zoom effect on loading page */
           animation-name: hero-zoom;
           animation-duration:5s;
@@ -125,6 +125,7 @@
         width:33%;
         float:right;
       }
+      
       #center-about{
         width:33%;
         margin:0 auto;
